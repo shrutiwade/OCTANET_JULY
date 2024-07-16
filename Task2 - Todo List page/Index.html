@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="logo"><img src="img\logo.png" height="60px" width="60px"></div>
+        <div class="header col-md-8"><h1>TO-DO LIST</h1></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item col-md-4 justify-content-center">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item col-md-5 justify-content-center">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <button class="btn btn-outline-primary col-md-6" type="submit">Sign In</button>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- To-Do List Section -->
+    <div class="container">
+        <div class="todo-list">
+            <table class="table table-borderless">
+                <tbody>
+                    <tr>
+                        <td><input type="text" class="form-control task-input" placeholder="Enter task"></td>
+                        <td><input type="checkbox" class="task-checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="form-control task-input" placeholder="Enter task"></td>
+                        <td><input type="checkbox" class="task-checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="form-control task-input" placeholder="Enter task"></td>
+                        <td><input type="checkbox" class="task-checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="form-control task-input" placeholder="Enter task"></td>
+                        <td><input type="checkbox" class="task-checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="form-control task-input" placeholder="Enter task"></td>
+                        <td><input type="checkbox" class="task-checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="form-control task-input" placeholder="Enter task"></td>
+                        <td><input type="checkbox" class="task-checkbox"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul class="completed-tasks">
+                <!-- Completed tasks will appear here -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
